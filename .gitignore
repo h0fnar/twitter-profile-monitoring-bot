@@ -1,0 +1,16 @@
+# Ignore environment variables:
+.env
+
+# Ignore IDE files:
+.idea
+
+# Ignore Mac DS_Store files:
+.DS_Store
+**/.DS_Store
+
+# Ignore everything in /img except 404.jpg:
+img/*
+!img/404.jpg
+
+# Ignore data.json:
+data.json
