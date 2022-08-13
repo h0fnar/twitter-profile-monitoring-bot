@@ -4,7 +4,7 @@ Checks if the monitored account changes the name, screen name, description, prof
 You need a [Twitter developer account](https://developer.twitter.com) and a free account at [pythonanywhere.com](https://www.pythonanywhere.com).
 
 With the free [pythonanywhere](https://www.pythonanywhere.com) account the bot must run in a while loop,
-because you have only 1 scheduled tasks and no always-on tasks.
+because you have only 1 scheduled task and no always-on tasks.
 You need to check every once in a while if the bot is running,
 because the consoles will be resetting every 1-3 days. It is not the best option, but for for testing purposes it is ok.
 > Maybe you edit the bot.py to run as a cron and get a paid [pythonanywhere](https://www.pythonanywhere.com) account, or run the bot on a Raspberry Pi (also as a cron).
